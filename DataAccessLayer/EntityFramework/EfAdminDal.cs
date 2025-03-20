@@ -11,6 +11,6 @@ namespace DataAccessLayer.EntityFramework
 {
     public class EfAdminDal:GenericRepository<Admin>,IAdminDal
     {
-    }
 
+    }
 }

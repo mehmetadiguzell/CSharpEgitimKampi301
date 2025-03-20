@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EntityLayer.Concrete
 {
@@ -13,6 +14,9 @@ namespace EntityLayer.Concrete
         public Category Category { get; set; }
 
         public List<Order> Orders { get; set; }
+
+        //[NotMapped]
+        //public string CategoryName { get; set; }
     }
 }
 
